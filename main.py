@@ -12,10 +12,10 @@ class SimpleChatbot:
       }
 
   def greet(self):
-      return self.greetings[0]  # simple static greeting
+      return self.greetings[0]  
 
   def farewell(self):
-      return self.farewells[0]  # simple static farewell
+      return self.farewells[0]  
 
   def respond_to_question(self, user_input):
       for question in self.questions:
